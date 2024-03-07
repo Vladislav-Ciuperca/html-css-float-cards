@@ -2,4 +2,38 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Madimi One", sans-serif;
+  }
+
+
+header,section{
+    text-align: center;
+    padding: 40px;
+}
+
+section{
+    /* background-color: blueviolet; */
+}
+
+body{
+    width: 80vw;
+    background-color: aqua;
+    margin: auto;
+}
+
+main{
+    width: 100%;
+    background-color: blue;
+    text-align: center;
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.targa{
+    width: calc(100% / 3 - 20px);
+    height: 150px;
+    background-color: brown;
+    float: left;
+    margin: 10px;
 }
